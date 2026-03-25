@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xploit | Creative Digital Agency</title>
+    <meta name="description" content="A professional frontend and digital strategy agency.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Using Outfit for bold geometric, Inter for body -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text">XPLOIT</span><span class="dot">.</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="process.html">Process</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+            <div class="nav-contact">
+                <span class="phone-icon">📞</span>
+                <span class="phone-number">+91 7208120916</span>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Blue Hero Section -->
+        <section id="home" class="hero bg-blue">
+            <div class="container hero-grid">
+                <!-- Left Stats -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">100<span class="neon-plus">+</span></div>
+                        <div class="stat-label">HAPPY CLIENTS</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50<span class="neon-plus">+</span></div>
+                        <div class="stat-label">PROJECTS DONE</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10<span class="neon-plus">+</span></div>
+                        <div class="stat-label">MEDIA FEATURED</div>
+                    </div>
+                </div>
+
+                <!-- Center Typography -->
+                <div class="hero-center">
+                    <h1 class="giant-text">
+                        <span class="neon-text">CREATIVE</span><br>
+                        AGENCY
+                    </h1>
+                </div>
+
+                <!-- Right Content -->
+                <div class="hero-right">
+                    <div class="decorative-star">✦</div>
+                    <p class="hero-desc">We blend aggressive technical precision with high-end aesthetic strategy. From hostel-room roots to digital dominance, we build experiences that don't just work—they command attention.</p>
+                    <a href="#contact" class="btn btn-outline-neon">GET STARTED <span>↗</span></a>
+                </div>
+
+                <!-- Abstract Outline Text -->
+                <div class="hero-outline-bg">XPLOIT</div>
+            </div>
+        </section>
+
+        <!-- Marquee Section -->
+        <div class="marquee-strip">
+            <div class="marquee-content">
+                <span>BRANDING</span> <span class="plus">+</span>
+                <span>GRAPHIC DESIGN</span> <span class="plus">+</span>
+                <span>WEB DESIGN</span> <span class="plus">+</span>
+                <span>DIGITAL MARKETING</span> <span class="plus">+</span>
+                <span>BRANDING</span> <span class="plus">+</span>
+                <span>GRAPHIC DESIGN</span> <span class="plus">+</span>
+                <span>WEB DESIGN</span> <span class="plus">+</span>
+                <span>DIGITAL MARKETING</span> <span class="plus">+</span>
+            </div>
+        </div>
+
+        <!-- What We Do / Services Section -->
+        <section id="services" class="what-we-do bg-dark section-padding">
+            <div class="container">
+                <div class="section-top">
+                    <div class="section-label neon-text">✦ WHAT WE DO</div>
+                    <div class="section-title-wrapper">
+                        <h2>DESIGNING FOR SEAMLESS AND ENJOYABLE INTERACTIONS.</h2>
+                        <a href="services.html" class="btn btn-dark-outline">ALL SERVICES <span>→</span></a>
+                    </div>
+                </div>
+
+                <div class="services-cards">
+                    <!-- Card 1 -->
+                    <div class="svc-card dark-card">
+                        <div class="svc-top">
+                            <h3>UI/UX DESGIN.</h3>
+                            <div class="arrow-circle neon-arrow">↗</div>
+                        </div>
+                        <p>We craft high-fidelity, user-centric interfaces that turn casual visitors into loyal fans. Every layout is a calculated balance of visual beauty and functional power.</p>
+                        <div class="svc-image placeholder-img-1"></div>
+                    </div>
+
+                    <!-- Card 2 (Blue Emphasis) -->
+                    <div class="svc-card blue-card">
+                        <div class="svc-image placeholder-img-2"></div>
+                        <div class="svc-top">
+                            <h3>CREATIVE DIGITAL SOLUTION.</h3>
+                            <div class="arrow-circle neon-arrow">↗</div>
+                        </div>
+                        <p>Beyond just code, we build entire digital ecosystems. Scalable, high-performance web applications tailored to solve your unique business challenges.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="svc-card dark-card">
+                        <div class="svc-top">
+                            <h3>LAUNCHING IN YOUR DOMAIN</h3>
+                            <div class="arrow-circle neon-arrow">↗</div>
+                        </div>
+                        <p>Your project doesn't just launch; it lands with a bang. We handle the technical heavy lifting of cloud deployment, global hosting, and iron-clad security.</p>
+                        <div class="svc-image placeholder-img-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who We Are / About Section -->
+        <section id="about" class="who-we-are bg-light section-padding">
+            <div class="container">
+                <div class="about-grid">
+                    <!-- Left Column -->
+                    <div class="about-left">
+                        <div class="section-label text-dark">✦ WHO WE ARE</div>
+                        <h2 class="text-dark">CREATIVITY<br>MEETS STRATEGY.</h2>
+                        <p class="text-grey">Xploit is a team of passionate designers, developers, and strategists. We
+                            specialize in delivering unique solutions that elevate your brand and captivate your
+                            audience.</p>
+
+                        <div class="about-badges">
+                            <div class="badge-item">
+                                <span class="badge-icon neon-bg">✓</span>
+                                <span class="badge-text">OVER 3 YEARS OF EXPERIENCE</span>
+                            </div>
+                            <div class="badge-item">
+                                <span class="badge-icon blue-bg">✓</span>
+                                <span class="badge-text">TRUSTED BY MANY INDIAN STARTUPS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Center Image Column -->
+                    <div class="about-center">
+                        <div class="portrait-image-wrapper">
+                            <!-- Placeholder portrait image matching the style -->
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop"
+                                alt="Creativity Meets Strategy">
+                        </div>
+                    </div>
+
+                    <!-- Right Column (Progress Bars) -->
+                    <div class="about-right">
+                        <div class="intro-box">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80"
+                                alt="Workspace">
+                            <p>Delivering high-quality solutions with modern technology.</p>
+                        </div>
+
+                        <div class="progress-container">
+                            <div class="progress-item">
+                                <div class="progress-top">
+                                    <span class="progress-title">UX/UI DESIGN</span>
+                                    <span class="progress-percent">95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill neon-bg" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-top">
+                                    <span class="progress-title">WEB DEVELOPMENT</span>
+                                    <span class="progress-percent">88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill blue-bg" style="width: 88%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+
+                            </div>
+                        </div>
+
+                        <a href="about.html" class="btn btn-outline-dark mt-4">ABOUT US <span>→</span></a>
+                    </div>
+                </div>
+
+                <!-- Funky Marquee Strip -->
+
+
+                <!-- Neon Callout Footer of Light Section -->
+                <div class="neon-callout-strip bg-dark">
+                    <span class="text-blue">"WE ARE CREATORS,</span>
+                    <span class="text-white">INNOVATORS, AND STORYTELLERS"</span>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <div class="funky-strip">
+                <div class="funky-marquee">
+                    <span class="outline">AESTHETICS</span> <span>✦</span>
+                    <span>INNOVATION</span> <span>✦</span>
+                    <span class="outline">STRATEGY</span> <span>✦</span>
+                    <span>CREATIVITY</span> <span>✦</span>
+                    <span class="outline">AESTHETICS</span> <span>✦</span>
+                    <span>INNOVATION</span> <span>✦</span>
+                    <span class="outline">STRATEGY</span> <span>✦</span>
+                    <span>CREATIVITY</span> <span>✦</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Process -->
+        <section id="process" class="process bg-darker section-padding">
+            <div class="container">
+                <div class="section-top text-center">
+                    <div class="section-label neon-text">✦ HOW WE WORK</div>
+                    <h2>TRANSFORMING IDEAS INTO MEMORABLE EXPERIENCES.</h2>
+                </div>
+                <div class="process-steps">
+                    <div class="step-card">
+                        <div class="step-number neon-text">01.</div>
+                        <h3 class="text-white">DISCOVER & STRATEGY</h3>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number neon-text">02.</div>
+                        <h3 class="text-white">DESIGN & PROTOTYPE</h3>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number neon-text">03.</div>
+                        <h3 class="text-white">DEVELOP & BUILD</h3>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number neon-text">04.</div>
+                        <h3 class="text-white">DELIVER & LAUNCH</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="contact" class="cta-banner section-padding bg-neon text-dark">
+            <div class="container cta-flex">
+                <h2 class="giant-cta">LET'S CREATE<br>SOMETHING EXTRAORDINARY.</h2>
+                <a href="contact.html" class="btn btn-solid-dark">GET IN TOUCH <span>↗</span></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="big-footer bg-darker">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-text text-white">XPLOIT</span><span class="dot neon-text">.</span>
+                    </a>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-column">
+                        <h4>NAVIGATION</h4>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="process.html">Process</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>SERVICES</h4>
+
+                        <a href="#">UI/UX Design</a>
+                        <a href="#">Web Development</a>
+
+                    </div>
+                    <div class="footer-column">
+                        <h4>CONTACT</h4>
+                        <a href="#">xploit.company.in@gmail.com</a>
+                        <a href="#">+91 7208120916</a>
+                        <a href="#">SURAT, GUJURAT, INDIA</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">&copy; 2026 XPLOIT AGENCY. ALL RIGHTS RESERVED.</div>
+                <div class="socials">
+
+
+                    <a href="#">INSTAGRAM</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Giant Watermark Text -->
+        <div class="footer-watermark">XPLOIT</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
